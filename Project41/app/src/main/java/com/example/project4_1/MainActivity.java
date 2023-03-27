@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         setTitle("초간단 계산기(20190822/김진용)");
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setIcon(R.drawable.cat);
+        getSupportActionBar().setIcon(R.drawable.titlecat);
 
 
         edit1 = findViewById(R.id.Edit1);
