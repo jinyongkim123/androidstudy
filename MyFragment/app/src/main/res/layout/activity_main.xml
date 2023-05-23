@@ -13,5 +13,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
          />
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.myfragment.MenuFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
 
 </LinearLayout>

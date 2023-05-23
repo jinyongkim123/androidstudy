@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 앱의 기본 테마 -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- 다른 스타일 속성들 -->
+        <item name="windowActionBar">false</item>
+        <!-- 다른 테마 속성들 -->
+    </style>
+</resources>

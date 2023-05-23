@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mainFragment = (MainFragment) getSupportFragmentManager().findFragmentById(R.id.mainFragment);
-        menuFragment = new MenuFragment();
+        menuFragment = (MenuFragment) getSupportFragmentManager().findFragmentById(R.id.menuFragment);
     }
 
     public void onFragmentChanged(int index){
