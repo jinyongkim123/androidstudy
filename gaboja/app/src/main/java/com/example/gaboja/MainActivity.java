@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ViewFlipper;
 
@@ -18,11 +19,24 @@ public class MainActivity extends AppCompatActivity {
 
     private FrameLayout frameLayout;
     ViewFlipper v_fllipper;
+    TextView text;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        text = findViewById(R.id.sandfestival);
+
+        text.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent intentdetail1 = new Intent(MainActivity.this, activity_detail1.class);
+                startActivity(intentdetail1);
+            }
+        });
+
+
         int images[] = {
                 R.drawable.busan ,  //첫번째 파일 이름
                 R.drawable.legoland, //두번째 파일 이름
@@ -62,17 +76,15 @@ public class MainActivity extends AppCompatActivity {
         int curld = item.getItemId();
         switch (curld) {
             case R.id.menu_filter:
-               Intent intent = new Intent(getApplicationContext(), window.class);
+               Intent intent = new Intent(getApplicationContext(), activity_filter.class);
                 startActivity(intent);
                 break;
 
             case R.id.menu_search:
-                Toast.makeText(this, "검색 메뉴가 선택 되었습니다.", Toast.LENGTH_SHORT).show();
+                Intent intent1 = new Intent(getApplicationContext(), activity_search.class);
+                startActivity(intent1);
                 break;
 
-            case R.id.menu_menu:
-                Toast.makeText(this, "메뉴 메뉴가 선택 되었습니다.", Toast.LENGTH_SHORT).show();
-                break;
         }
         return super.onOptionsItemSelected(item);
     }

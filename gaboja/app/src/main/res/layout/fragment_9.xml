@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="17dp">
+                <TextView
+                    android:id="@+id/reviewName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="김**"
+                    android:textSize="17sp"
+                    android:textColor="@color/nologagga_color"/>
+                <TextView
+                    android:id="@+id/reviewCon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="아이랑 같이 좋은 추억 만들기 좋았어요~"
+                    android:textSize="13sp"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:layout_margin="15dp"
+                    android:background="#6E6E6E" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="17dp">
+                <TextView
+                    android:id="@+id/reviewName1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="박**"
+                    android:textSize="17sp"
+                    android:textColor="@color/nologagga_color" />
+                <TextView
+                    android:id="@+id/reviewCon1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="저랑 딸래미는 무서운 기구 못타서 많이는 못 탔지만 아들은 잘 타고 좋네요~ "
+                    android:textSize="13sp" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:layout_margin="15dp"
+                    android:background="#6E6E6E" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="17dp">
+                <TextView
+                    android:id="@+id/reviewName3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="최**"
+                    android:textSize="17sp"
+                    android:textColor="@color/nologagga_color" />
+                <TextView
+                    android:id="@+id/reviewCon3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="부모님 모시고 여행왔어요~ 너무 좋아하셔서 다행이에요"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

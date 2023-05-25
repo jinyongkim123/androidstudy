@@ -12,9 +12,4 @@
         android:icon="@drawable/menu_search"
         app:showAsAction="always"/>
 
-    <item android:id="@+id/menu_menu"
-        android:title="검색"
-        android:icon="@drawable/menu_menu"
-        app:showAsAction="always"/>
-
 </menu>

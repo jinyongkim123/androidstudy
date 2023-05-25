@@ -4,81 +4,180 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainFragment">
+    android:orientation="vertical">
 
-
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 
     <ViewFlipper
         android:id="@+id/image_slide"
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/koner_layout"
+        android:clipToOutline="true"
+        android:elevation="40dp"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="72dp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textSize="30sp"
-        android:text="실시간 인기 축제 검색어" />
+        android:layout_margin="10dp"
+        android:fontFamily="@font/happy"
+        android:text="실시간 인기 축제 검색어"
+        android:textColor="@color/nologagga_color"
+        android:textSize="30sp" />
 
-    <TextView
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:fontFamily="@font/happy"
+            android:text="1.  "
+            android:textColor="@color/nologagga_color"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/legokr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/happy"
+            android:text="레고랜드 코리아"
+            android:textColor="@color/nologagga_color"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="8dp"
+        android:background="#D6D0D0"
+        />
+
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content">
 
-    <TextView
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:fontFamily="@font/happy"
+            android:text="2.  "
+            android:textColor="@color/nologagga_color"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/sandfestival"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/happy"
+            android:text="해운대 모래축제"
+            android:textColor="@color/nologagga_color"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="8dp"
+        android:background="#D6D0D0" />
+
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content">
 
-    <TextView
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:fontFamily="@font/happy"
+            android:text="3.  "
+            android:textColor="@color/nologagga_color"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/hanrivermarket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/happy"
+            android:text="한강 야시장"
+            android:textColor="@color/nologagga_color"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="8dp"
+        android:background="#D6D0D0" />
+
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:textSize="20sp"
-        android:text="레고랜드 코리아" />
+        android:layout_height="wrap_content">
 
-    <TextView
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:fontFamily="@font/happy"
+            android:text="4.  "
+            android:textColor="@color/nologagga_color"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/alpaka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/happy"
+            android:text="알파카 월드"
+            android:textColor="@color/nologagga_color"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="8dp"
+        android:background="#D6D0D0" />
+
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:textSize="20sp"
-        android:text="해운대 모래축제" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:fontFamily="@font/happy"
+            android:text="5.  "
+            android:textColor="@color/nologagga_color"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:textSize="20sp"
-        android:text="한강 야시장" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
+        <TextView
+            android:id="@+id/seoulrose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/happy"
+            android:text="서울 장미축제"
+            android:textColor="@color/nologagga_color"
+            android:textSize="20sp" />
+    </LinearLayout>
 
 </LinearLayout>

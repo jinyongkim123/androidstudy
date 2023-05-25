@@ -1,5 +1,20 @@
 <resources>
     <string name="app_name">nologagga</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <!--전주 한옥 부분-->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hanok">400년이 넘은 충남 광천의 사대부 한옥을 그대로 옮겨 복원시켰다. 1000년 수령의 느티나무와 소나무들이 한옥과 어우러져 계절마다 새로운 옷을 갈아입는다. 수려한 자연 속에서 한옥의 고즈넉한 정취를 느끼며 삶의 여유를 느껴볼 수 있다.</string>
+    <string name="hanok1">10:30 ~ 20:00\n일자별 운영시간 상이(홈페이지 확인)</string>
+    <string name="hanok2">카페이용시 주차비 무료\n승용차 기준 80여 대까지 주차 가능\n이용가능시설 : 세미나실 대관, 아웃도어 바비큐, 한복체험\n부대시설 : Café새오개길39, 한옥스테이, 한옥스튜디오 사름\n애완동물동반가능 정보 : 불가</string>
+    <string name="hanok3">주소 : 경기도 광주시 새오개길 39 (목현동)\n홈페이지 : http://www.hanokmaeul.com/</string>
+    <!--해운대 모래축제 부분-->
+    <string name="sand">전국 최대의 모래를 소재로 한 친환경 전시회인 2023 해운대 모래축제</string>
+    <string name="sand1"> 2023년 5월 19일(금) ~ 5월 22일(월)</string>
+    <string name="sand2">해운대해수욕장 공영주차장\n 30분 1,500원\n 10분당 500원\n 일 주차 15,000원\n 해운대구 우동 620-25</string>
+    <string name="sand3">주소 : 해운대해수욕장\n 해운대광장 일원</string>
+    <!--롯데월드 부분-->
+    <string name="lotte">365일 즐거움이 가득한 공간, 롯데월드!</string>
+    <string name="lotte1">(화, 수, 목)10:00 ~ 21:00 \n (금, 토, 일, 월)10:00 ~ 22:00</string>
+    <string name="lotte2">롯데월드 어드벤처 지상, 지하(4층) \n 대형주차장</string>
+    <string name="lotte3">주소 : 서울 송파구 올림픽로 240</string>
+
 </resources>
